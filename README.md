@@ -11,7 +11,7 @@ nombre VARCHAR(40) NOT NULL,
 usario VARCHAR(20) NOT NULL,
 email VARCHAR(40) NOT NULL,
 edad VARCHAR(4) NOT NULL,
-PRIMARY KEY (id)
+PRIMARY KEY (id_usuario)
 );
 ```
 ### Tercer Paso: Coloca los datos de acceso a MySQL en el archivo 'config/conexion.php'. 
