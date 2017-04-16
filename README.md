@@ -7,8 +7,10 @@ Este script se conecta a una base de datos MySQL con la extensión PDO utilizand
 ```
 create TABLE usuario (
 id_usuario INT NOT NULL AUTO_INCREMENT,
-nombre VARCHAR(30) NOT NULL,
-color VARCHAR(30) NOT NULL,
+nombre VARCHAR(40) NOT NULL,
+usario VARCHAR(20) NOT NULL,
+email VARCHAR(40) NOT NULL,
+edad VARCHAR(4) NOT NULL,
 PRIMARY KEY (id)
 );
 ```
