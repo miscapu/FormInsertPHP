@@ -20,4 +20,4 @@ define('DB_PASSWORD', '***********');    //contraseña de MySQL DB_PASSWORD
 define('DSN', 'mysql:host=localhost;port=3306;dbname=conexionpdo');
 
 ## Preguntas y Crítiicas
-[author blog](http://miscapu.blogspot.com).
+[author del script](http://miscapu.blogspot.com).
