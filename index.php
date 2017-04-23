@@ -2,16 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Ingresando Datos a Base de datos githubconexionpdo</title>
+<title>Ingresando Datos a Base de datos conexionpdo</title>
 <link type="text/css" rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css" />
-<link type="text/css" rel="stylesheet" href="css/styles.css" />
+<link type="text/css" rel="stylesheet" href="assets/css/styles.css" />
 <link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
 <link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js" type="text/javascript"></script>
 <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="application/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script type="application/javascript" src="js/script.js"></script>
-<script type="application/javascript" src="js/validaciones.js"></script>
+<script type="application/javascript" src="assets/js/script.js"></script>
+<script type="application/javascript" src="assets/js/validaciones.js"></script>
 
 </head>
 
@@ -19,11 +19,11 @@
 
 <div class="container">
 
-    <form action="http://localhost/GitHub/ConeccionPDO/controladores/save.php" method="post" class="well form-horizontal" id="contact_form">
+    <form action="controladores/save.php" method="post" class="well form-horizontal" id="contact_form">
 <fieldset>
 
 <!-- Form Name -->
-<legend>Ingrese Registros a githubconexionpdo!</legend>
+<legend>Ingrese Registros a conexionpdo!</legend>
 
 <!-- Text input-->
 
@@ -78,7 +78,7 @@
 <div class="form-group">
   <label class="col-md-4 control-label"></label>
   <div class="col-md-4" align="center">
-    <button type="submit" class="btn btn-warning">Send <span class="glyphicon glyphicon-send"></span></button>
+    <button type="submit" class="btn btn-warning">Enviar <span class="glyphicon glyphicon-send"></span></button>
   </div>
 </div>
 
