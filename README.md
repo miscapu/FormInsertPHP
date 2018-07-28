@@ -1,4 +1,4 @@
-# Formulario para Insertar Registros a Una Base de datos MySQL
+﻿# Formulario para Insertar Registros a Una Base de datos MySQL
 
 Este script se conecta a una base de datos MySQL con la extensión PDO utilizando declaraciones preparadas (Statements Prepared); luego inserta registros utilizando un formulário hecho en booststrap con sus respectivas validaciones! 
 ## Instalación y Uso:
@@ -20,4 +20,4 @@ define('DB_PASSWORD', '***********');    //contraseña de MySQL DB_PASSWORD
 define('DSN', 'mysql:host=localhost;port=3306;dbname=conexionpdo');
 
 ## Preguntas y Crítiicas
-[autor del Script](http://miscapu.blogspot.com).
+[autor del Script](https://mysqliphp.blogspot.com)
